@@ -4,7 +4,7 @@ const MongoClient= require("mongodb").MongoClient;
 const mongodb = require("./src/db/connection");
 const route = require("./src/routes/route");
 
-const port = process.env.Port || 10000;
+const port = process.env.Port || 3000;
 
 const app = express();
 

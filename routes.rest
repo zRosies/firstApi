@@ -1,12 +1,22 @@
 //Full Request
 
-GET http://localhost:9090/contacts/
+    Local:
+    GET http://localhost:3000/contacts/
 
+    //Deploy
+    GET https://firstapi-lomd.onrender.com/contacts/
 
 
 //Single Request
 
-GET http://localhost:9090/contacts/650b0d8afb071934a59281b4
-GET http://localhost:9090/contacts/650b0d6ffb071934a59281b3
-GET http://localhost:9090/contacts/650b0da0fb071934a59281b5
+    Deploy:
+    GET https://firstapi-lomd.onrender.com/contacts/650b0d8afb071934a59281b4
+    GET https://firstapi-lomd.onrender.com/contacts/650b0d6ffb071934a59281b3
+    GET https://firstapi-lomd.onrender.com/contacts/650b0da0fb071934a59281b5
+
+//Local:
+
+    GET http://localhost:3000/contacts/650b0d6ffb071934a59281b3
+    GET http://localhost:3000/contacts/650b0d8afb071934a59281b4
+    GET http://localhost:3000/contacts/650b0da0fb071934a59281b5
 
